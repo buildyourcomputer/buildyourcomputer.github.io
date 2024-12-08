@@ -9,7 +9,7 @@ export default () => (
                     <img src="/logo.svg" alt="logo" className="w-12" width="48" height="48" />
                     <div className="ml-2">
                         <div className="font-bold leading-none">Build your computer</div>
-                        <div className="text-sm leading-none">Create your own computer from scratch</div>
+                        <div className="text-sm leading-none">Create a computer from scratch</div>
                     </div>
                 </div>
             </Link>
