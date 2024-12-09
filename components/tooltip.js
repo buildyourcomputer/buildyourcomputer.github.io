@@ -9,9 +9,7 @@ const Tooltip = ({ children, text, direction = 'top', className = '' }) => {
     return (
         <div className={`relative inline-flex align-bottom group ${className}`}>
             <div>{children}</div>
-            <div
-                className={`hidden group-hover:block absolute w-max max-w-[300px] text-center z-50 rounded-md p-2 text-sm bg-black text-white ${directionClasses[direction]}`}
-            >
+            <div className={`hidden group-hover:block absolute w-max max-w-[300px] text-center z-50 rounded-md p-2 text-sm bg-black text-white ${directionClasses[direction]}`}>
                 {text}
             </div>
         </div>

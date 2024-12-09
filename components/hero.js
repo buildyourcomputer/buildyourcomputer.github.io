@@ -8,7 +8,6 @@ export default () => (
             <h2 className="my-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:text-xl md:max-w-3xl">Learn how computers work by building a real one from scratch</h2>
             <div className="grid gap-2 sm:grid-flow-col sm:auto-cols-max justify-center">
                 <Button href="/">Build your computer</Button>
-                <Button href="/" secondary>Learn more</Button>
             </div>
         </div>
     </section>
